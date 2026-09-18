@@ -1,0 +1,64 @@
+2026-09-18 04:56:08,509 fail2ban.server         [3607]: INFO    --------------------------------------------------
+2026-09-18 04:56:08,510 fail2ban.server         [3607]: INFO    Starting Fail2ban v1.0.2
+2026-09-18 04:56:08,510 fail2ban.observer       [3607]: INFO    Observer start...
+2026-09-18 04:56:08,512 fail2ban.database       [3607]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-09-18 04:56:08,514 fail2ban.database       [3607]: WARNING New database created. Version '4'
+2026-09-18 04:56:08,514 fail2ban.jail           [3607]: INFO    Creating new jail 'sshd'
+2026-09-18 04:56:08,616 fail2ban.jail           [3607]: INFO    Jail 'sshd' uses systemd {}
+2026-09-18 04:56:08,617 fail2ban.jail           [3607]: INFO    Initiated 'systemd' backend
+2026-09-18 04:56:08,618 fail2ban.filter         [3607]: INFO      maxLines: 1
+2026-09-18 04:56:08,629 fail2ban.filtersystemd  [3607]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2026-09-18 04:56:08,629 fail2ban.filter         [3607]: INFO      maxRetry: 5
+2026-09-18 04:56:08,629 fail2ban.filter         [3607]: INFO      findtime: 600
+2026-09-18 04:56:08,629 fail2ban.actions        [3607]: INFO      banTime: 600
+2026-09-18 04:56:08,630 fail2ban.filter         [3607]: INFO      encoding: UTF-8
+2026-09-18 04:56:08,631 fail2ban.jail           [3607]: INFO    Jail 'sshd' started
+2026-09-18 04:56:08,642 fail2ban.filtersystemd  [3607]: INFO    [sshd] Jail is in operation now (process new journal entries)
+2026-09-18 04:56:44,171 fail2ban.server         [3607]: INFO    Shutdown in progress...
+2026-09-18 04:56:44,171 fail2ban.observer       [3607]: INFO    Observer stop ... try to end queue 5 seconds
+2026-09-18 04:56:44,191 fail2ban.observer       [3607]: INFO    Observer stopped, 0 events remaining.
+2026-09-18 04:56:44,232 fail2ban.server         [3607]: INFO    Stopping all jails
+2026-09-18 04:56:44,725 fail2ban.actions        [3607]: NOTICE  [sshd] Flush ticket(s) with nftables
+2026-09-18 04:56:44,725 fail2ban.jail           [3607]: INFO    Jail 'sshd' stopped
+2026-09-18 04:56:44,726 fail2ban.database       [3607]: INFO    Connection to database closed.
+2026-09-18 04:56:44,726 fail2ban.server         [3607]: INFO    Exiting Fail2ban
+2026-09-18 04:56:44,855 fail2ban.server         [3707]: INFO    --------------------------------------------------
+2026-09-18 04:56:44,856 fail2ban.server         [3707]: INFO    Starting Fail2ban v1.0.2
+2026-09-18 04:56:44,856 fail2ban.observer       [3707]: INFO    Observer start...
+2026-09-18 04:56:44,861 fail2ban.database       [3707]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-09-18 04:56:44,862 fail2ban.jail           [3707]: INFO    Creating new jail 'sshd'
+2026-09-18 04:56:44,931 fail2ban.jail           [3707]: INFO    Jail 'sshd' uses systemd {}
+2026-09-18 04:56:44,932 fail2ban.jail           [3707]: INFO    Initiated 'systemd' backend
+2026-09-18 04:56:44,933 fail2ban.filter         [3707]: INFO      maxLines: 1
+2026-09-18 04:56:44,942 fail2ban.filtersystemd  [3707]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=sshd.service + _COMM=sshd'
+2026-09-18 04:56:44,942 fail2ban.filter         [3707]: INFO      maxRetry: 3
+2026-09-18 04:56:44,942 fail2ban.filter         [3707]: INFO      findtime: 600
+2026-09-18 04:56:44,942 fail2ban.actions        [3707]: INFO      banTime: 600
+2026-09-18 04:56:44,942 fail2ban.filter         [3707]: INFO      encoding: UTF-8
+2026-09-18 04:56:44,943 fail2ban.filtersystemd  [3707]: INFO    [sshd] Jail is in operation now (process new journal entries)
+2026-09-18 04:56:44,944 fail2ban.jail           [3707]: INFO    Jail 'sshd' started
+2026-09-18 06:02:25,398 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,825 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,826 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,827 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,827 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,828 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,828 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,828 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,829 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,829 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,830 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:25
+2026-09-18 06:02:25,925 fail2ban.actions        [3707]: NOTICE  [sshd] Ban 172.24.44.102
+2026-09-18 06:02:28,058 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,066 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,066 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,067 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,067 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,067 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,068 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,068 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,068 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,069 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,069 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:02:28,069 fail2ban.filter         [3707]: INFO    [sshd] Found 172.24.44.102 - 2026-09-18 06:02:27
+2026-09-18 06:12:27,910 fail2ban.actions        [3707]: NOTICE  [sshd] Unban 172.24.44.102
